@@ -1,1 +1,30 @@
-.
+body {
+    margin: 5px;
+}
+
+    .home {
+        display: flex;
+        justify-content: space-between;   
+    }
+
+        .barra_superior {
+            display: flex;
+            justify-content: space-between;
+        }
+
+            .logo {
+                background-color: blueviolet;
+            }
+
+            .links_nav {
+                background-color: chartreuse;
+                display: inline-flex;
+            }
+                    li{
+                        text-decoration: none;
+                    }
+            .icones_redes_sociais {
+                background-color: coral;
+                display: inline-flex;
+                text-decoration: none;
+            }
