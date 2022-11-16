@@ -1,30 +1,18 @@
-body {
-    margin: 5px;
+.barra_superior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-    .home {
-        display: flex;
-        justify-content: space-between;   
-    }
+ul {
+    display: inline-flex;
+}
 
-        .barra_superior {
-            display: flex;
-            justify-content: space-between;
-        }
+li {
+    list-style-type: none;
+}
 
-            .logo {
-                background-color: blueviolet;
-            }
-
-            .links_nav {
-                background-color: chartreuse;
-                display: inline-flex;
-            }
-                    li{
-                        text-decoration: none;
-                    }
-            .icones_redes_sociais {
-                background-color: coral;
-                display: inline-flex;
-                text-decoration: none;
-            }
+a {
+    text-decoration: none;
+    padding: 0 20px;
+}
