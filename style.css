@@ -1,7 +1,33 @@
+* {
+    background-color: black;
+    --purple: white;
+}
+
 .barra_superior{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.main-home {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    color: white;
+}
+
+strong{
+    color: orangered;
+}
+
+p{
+    color: white;
+}
+
+.orcamento{
+    color: orangered;
 }
 
 ul {
@@ -15,4 +41,14 @@ li {
 a {
     text-decoration: none;
     padding: 0 20px;
+    color: white;
+}
+
+.botao{
+    color: orangered;
+}
+
+button {
+    background-color: orangered;
+    color: white;
 }
