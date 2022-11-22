@@ -3,7 +3,7 @@
     --purple: white;
 }
 
-.barra_superior{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
