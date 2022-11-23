@@ -2,20 +2,34 @@
 
 * {
     background-color: black;
-    --purple: white;
+
 }
 
 .pt-sans-bold { font-family: 'PT Sans', sans-serif;font-weight: 700; }
 
 .header {
+    margin: 34px 175px 0px 175px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    width: 1109.98px;
+    height: 200px;
+
+    
 }
 
 .main-home {
     display: flex;
     justify-content: space-between;
+
+}
+
+.main-call {
+    width: 487px;
+    height: 304px;
+    top: 207;
 }
 
 h1{
