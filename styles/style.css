@@ -1,36 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
 
-* {
-    background-color: black;
+* { margin:0;padding:0;list-style-type: none;text-decoration: none;color:white; }
 
-}
+body { display:flex;justify-content:center;align-items:center;background:#32333E; }
+
+.container { width:1110px; }
 
 .pt-sans-bold { font-family: 'PT Sans', sans-serif;font-weight: 700; }
 
-.header {
-    margin: 34px 175px 0px 175px;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.color-white { color:white; }
 
-    width: 1109.98px;
-    height: 200px;
+.header { display: flex;justify-content: space-between;align-items: center;padding:34px 0; }
 
-    
-}
+.header .icons ul { display:flex; }
+.header .icons ul li { margin-right:15px; }
+.header .icons ul li:last-child { margin-right:0px; }
 
-.main-home {
-    display: flex;
-    justify-content: space-between;
+.header .menu ul { display:flex; }
+.header .menu ul { display:flex; }
+.header .menu ul li { margin-right:45px; }
+.header .menu ul li:last-child { margin-right:0px; }
 
-}
 
-.main-call {
-    width: 487px;
-    height: 304px;
-    top: 207;
-}
+
+
+
+
+/*
+
+.main-call { width: 487px;height: 304px;top: 207; }
+
+.main-home { display: flex;justify-content: space-between; }
 
 h1{
     color: white;
@@ -70,3 +70,4 @@ button {
     background-color: orangered;
     color: white;
 }
+*/
