@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
 * { margin:0;padding:0;list-style-type: none;text-decoration: none;color:white; }
 
@@ -6,76 +6,42 @@ body { display:flex;justify-content:center;align-items:center;background:#32333E
 
 .container { width:1110px; }
 
-.pt-sans-bold { font-family: 'PT Sans', sans-serif;font-weight: 700; width: 400; size: 55px; line-height: 66px;}
+/* INICIO PADROES DO PROJETO */
+
+.pt-sans-bold { font-family: 'PT Sans', sans-serif; }
 
 .color-white { color:white; }
 
-.header { display: flex;justify-content: space-between;align-items: center;padding:34px 0; }
+.font-16 { font-size:16px;line-height:18px; }
+.font-55 { font-size:55px;line-height:57px; }
+
+.font-weight-700 { font-weight: 700; }
+
+.color-ff6900 { color: #FF6900; }
+
+.background-ff6900 { background: #FF6900; }
+
+.pb-15 { padding-bottom:15px; }
+.pb-40 { padding-bottom:40px; }
+
+.mr-15 { margin-right:15px; }
+
+/* FIM PADROES DO PROJETO */
+
+.header { display: flex;justify-content: space-between;align-items: center;padding:34px 0 0 0; }
 
 .header .icons ul { display:flex; }
 .header .icons ul li { margin-right:15px; }
 .header .icons ul li:last-child { margin-right:0px; }
 
 .header .menu ul { display:flex; }
-.header .menu ul { display:flex; }
 .header .menu ul li { margin-right:45px; }
 .header .menu ul li:last-child { margin-right:0px }
 
-.main-home { display: flex;justify-content: space-between; position: absolute }
-
-.main-call { width: 487px;height: 304px;top: 207 }
-
-h1{ color: white; font-size: 60px; width: 369; height: 132;}
-/*mudei o tamanho da fonte pq não consegui altera a width*/
-strong{ color: #FF6900; }
-
-p{ color: white; }
-
-.orcamento{ color:#FF6900; }
-
-ul { display: inline-flex; }
-
-li {
-    list-style-type: none; }
-
-a { width: 190; height: 60; top:450px; left: 165px; padding: 22px, 21px, 22px, 21px;
-
-    text-decoration: none;
-    padding: 0 20px;
-    color: #FF6900;
-}
-
-button{
-    box-sizing: border-box;
-    /*color: #FF6900;*/
-    color: antiquewhite;
-
-/* Auto layout */
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 22px 21px;
-    gap: 10px;
-
-    position: absolute;
-    width: 190px;
-    height: 60px;
-    left: 165px;
-    top: 450px;
-
-    background: #FF6900;
-    border: 1px solid #000000;
-    border-radius: 10px;
-
-    font-size: 16px;
-}
-
-.casal {
-
-    position: absolute;
-    width: 554px;
-    height: 480px;
-    left: 682px;
-    top: 114px;
-}
-
+.main-home { display: flex;justify-content:space-between;align-items:center; }
+.main-home .main-call { width: 487px;height: 304px;top: 207 }
+.main-home .main-call .title { width:420px; }
+.main-home .main-call .button-link { display:flex;align-items:center; }
+.main-home .main-call .button-link a.button { padding:22px;border-radius:10px; }
+.main-home .main-call .button-link p a { }
+.main-home .casal { }
