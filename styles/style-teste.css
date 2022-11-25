@@ -1,1 +1,8 @@
-style-teste.css
+body {
+    margin: 0;
+    height: 100vh;
+
+    display:grid;
+    grid-template-areas;
+        ""
+}
