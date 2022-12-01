@@ -132,12 +132,9 @@ h1 {
     background: #DDFBF8;
     border-radius: 10px;
     
-    
-    
-    /*height: 40px;
-    width: 40px;
-    left: 204px;
-    top: 896px;
-    border-radius: 10px;*/
-
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2 - 496px);
+    top: calc(50% - 24px/2 - 1018px);
+    padding: 8px;
 }
