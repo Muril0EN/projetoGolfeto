@@ -2,7 +2,7 @@
 
 * { margin:0;padding:0;list-style-type: none;text-decoration: none;color:white; }
 
-body { display:flex;justify-content:center;align-items:center;background:#32333E;}
+body { display: flex;justify-content:center;align-items:center;background:#32333E; flex-direction: column;}
 
 .container { width:1110px; }
 
@@ -54,7 +54,7 @@ h1 {
     margin-top: 40px;
     height: 60px;
 
- }
+}
 
 .button { 
     display:flex;
@@ -67,10 +67,77 @@ h1 {
     font-weight: 700;
     font-size: 16px;
     text-align: center;
- }
+}
 
  .ultima_linha p {
     padding: 16px;
- }
+}
 
-.main-home .casal { }
+.main-home .casal {
+    width: 504;
+    height: 480;
+}
+
+.services {
+    text-align: center;
+    
+}
+
+.services p {
+    /*height: 113px;*/
+    width: 417px;
+    margin: auto;
+}
+
+.your-services {
+    width: 149px;
+    height: 18px;
+    padding-top: 78px;
+}
+
+.services .chamada {
+    font-family: PT Sans;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+.services ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.services li {
+
+    width: 255px;
+    height: 224px;
+    left: 165px;
+    top: 851px;
+
+    background: #3E4050;
+    box-shadow: 10px 10px 30px rgba(189, 0, 255, 0.13);
+    border-radius: 10px;
+}
+
+.services li img {
+    
+    width: 40px;
+    height: 40px;
+    margin-left: 39px; margin-top: 45px; margin-bottom: 179px; margin-right: 136px;
+
+    background: #DDFBF8;
+    border-radius: 10px;
+    
+    
+    
+    /*height: 40px;
+    width: 40px;
+    left: 204px;
+    top: 896px;
+    border-radius: 10px;*/
+
+}
