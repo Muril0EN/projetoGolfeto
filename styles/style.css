@@ -125,16 +125,18 @@ h1 {
 
 .services li img {
     
-    width: 40px;
-    height: 40px;
-    margin-left: 39px; margin-top: 45px; margin-bottom: 179px; margin-right: 136px;
+    margin-left: 39px; margin-top: 45px; margin-bottom: 147px; margin-right: 136px;
 
     background: #DDFBF8;
     border-radius: 10px;
     
     width: 24px;
     height: 24px;
-    left: calc(50% - 24px/2 - 496px);
-    top: calc(50% - 24px/2 - 1018px);
+    /*left: calc(50% - 24px/2 - 496px);
+    top: calc(50% - 24px/2 - 1018px);*/
     padding: 8px;
+}
+
+.services li a {
+    top: 959px;
 }
