@@ -13,8 +13,10 @@ body { display: flex;justify-content:center;align-items:center;background:#32333
 .color-white { color:white; }
 
 .font-16 { font-size:16px;line-height:18px; }
-.font-55 { font-size:55px;line-height:66px; }
+.font-40 { font-size:40px;line-height:42px; }
+.font-55 { font-size:55px;line-height:57px; }
 
+.font-weight-400 { font-weight: 400; }
 .font-weight-700 { font-weight: 700; }
 
 .color-ff6900 { color: #FF6900; }
@@ -23,6 +25,7 @@ body { display: flex;justify-content:center;align-items:center;background:#32333
 
 .pb-15 { padding-bottom:15px; }
 .pb-40 { padding-bottom:40px; }
+.pt-60 { padding-top:60px; }
 
 .mr-15 { margin-right:15px; }
 
@@ -40,90 +43,20 @@ body { display: flex;justify-content:center;align-items:center;background:#32333
 
 .main-home { display: flex;justify-content:space-between;align-items:center; }
 .main-home .main-call { width: 487px;height: 304px;top: 207 }
-.main-home .main-call .title { width:420px; }
+.main-home .main-call .title { margin: 15px 0px;width:369px; }
+.main-home .main-call .ultima_linha { display: flex;text-align: center;margin-top: 40px;height: 60px; }
+.main-home .main-call .ultima_linha .button { display:flex;align-items:center;justify-content: center; border-radius: 10px; width: 190px;height: 60px; background-color: #ff6900;font-weight: 700;font-size: 16px;text-align: center; }
+.main-home .main-call .ultima_linha p { padding: 16px; }
+.main-home .casal { width: 504;height: 480; }
 
-h1 {
-    margin: 15px 0px;
-    width: 369px;
-    line-height: 120%;   
-}
 
-.ultima_linha {
-    display: flex;
-    text-align: center;
-    margin-top: 40px;
-    height: 60px;
 
-}
+.services .title-subtitle { text-align:center;width:417px;margin:0 auto 60px; }
 
-.button { 
-    display:flex;
-    align-items:center;
-    justify-content: center; 
-    border-radius: 10px; 
-    width: 190px;
-    height: 60px; 
-    background-color: #ff6900;
-    font-weight: 700;
-    font-size: 16px;
-    text-align: center;
-}
+.services ul.itens { display: grid;grid-template-columns: repeat(4,1fr);grid-gap: 30px; }
+.services ul.itens li { width: 255px;height: 224px;background: #3E4050;box-shadow: 10px 10px 30px rgba(189, 0, 255, 0.13);border-radius: 10px; }
 
- .ultima_linha p {
-    padding: 16px;
-}
-
-.main-home .casal {
-    width: 504;
-    height: 480;
-}
-
-.services {
-    text-align: center;
-    
-}
-
-.services p {
-    /*height: 113px;*/
-    width: 417px;
-    margin: auto;
-}
-
-.your-services {
-    width: 149px;
-    height: 18px;
-    padding-top: 78px;
-}
-
-.services .chamada {
-    font-family: PT Sans;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 40px;
-
-    padding-top: 15px;
-    padding-bottom: 60px;
-}
-
-.services ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30px;
-}
-
-.services li {
-
-    width: 255px;
-    height: 224px;
-    left: 165px;
-    top: 851px;
-
-    background: #3E4050;
-    box-shadow: 10px 10px 30px rgba(189, 0, 255, 0.13);
-    border-radius: 10px;
-}
-
-.services li img {
+/* .services li img {
     
     margin-left: 39px; margin-top: 45px; margin-bottom: 147px; margin-right: 136px;
 
@@ -132,11 +65,9 @@ h1 {
     
     width: 24px;
     height: 24px;
-    /*left: calc(50% - 24px/2 - 496px);
-    top: calc(50% - 24px/2 - 1018px);*/
     padding: 8px;
 }
 
 .services li a {
     top: 959px;
-}
+}  */
