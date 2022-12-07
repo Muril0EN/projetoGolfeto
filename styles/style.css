@@ -29,6 +29,8 @@ body { display: flex;justify-content:center;align-items:center;background:#32333
 
 .mr-15 { margin-right:15px; }
 
+/*.box-comment { display: flex; justify-content: space-around; height: 226px; width: 498px; left: 184px; top: 1652px; }
+*/
 /* FIM PADROES DO PROJETO */
 
 .header { display: flex;justify-content: space-between;align-items: center;padding:34px 0 0 0; }
@@ -41,7 +43,7 @@ body { display: flex;justify-content:center;align-items:center;background:#32333
 .header .menu ul li { margin-right:45px; }
 .header .menu ul li:last-child { margin-right:0px }
 
-.main-home { display: flex;justify-content:space-between;align-items:center; }
+.main-home { display: flex; justify-content:space-between; align-items:center; }
 .main-home .main-call { width: 487px;height: 304px;top: 207 }
 .main-home .main-call .title { margin: 15px 0px;width:369px; }
 .main-home .main-call .ultima_linha { display: flex;text-align: center;margin-top: 40px;height: 60px; }
@@ -49,10 +51,20 @@ body { display: flex;justify-content:center;align-items:center;background:#32333
 .main-home .main-call .ultima_linha p { padding: 16px; }
 .main-home .casal { width: 504;height: 480; }
 
-.services .title-subtitle { text-align:center;width:417px;margin:0 auto 60px; }
+.services .title-subtitle { text-align:center; width:417px;margin:0 auto 60px; }
 
 .services ul.itens { display: grid;grid-template-columns: repeat(4,1fr);grid-gap: 30px; }
 .services ul.itens li { width: 255px;height: 224px;background: #3E4050;box-shadow: 10px 10px 30px rgba(189, 0, 255, 0.13);border-radius: 10px; }
 .services ul.itens li a img { margin-top: 45px; margin-left: 39px; }
 .services ul.itens li a h4 { width: 139px; margin-left: 39px; line-height: 23px; padding-top: 23px;}
 .services ul.itens li a p { padding-top: 9px; margin-left: 39px; margin-bottom: 44px;}
+
+.depoimentos .title-subtitle-depoimentos { text-align:center; width:417px; margin:0 auto 60px; padding-top: 20px;}
+
+.depoimentos ul .box-comment {display: flex; justify-content: space-around; height: 226px; width: 498px; left: 184px; top: 1652px; text-align: justify;}
+
+
+.depoimentos ul li .box-comment p {display: flex;
+
+}
+
