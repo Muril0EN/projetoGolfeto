@@ -29,8 +29,6 @@ body { display: flex;justify-content:center;align-items:center;background:#32333
 
 .mr-15 { margin-right:15px; }
 
-/*.box-comment { display: flex; justify-content: space-around; height: 226px; width: 498px; left: 184px; top: 1652px; }
-*/
 /* FIM PADROES DO PROJETO */
 
 .header { display: flex;justify-content: space-between;align-items: center;padding:34px 0 0 0; }
@@ -59,12 +57,14 @@ body { display: flex;justify-content:center;align-items:center;background:#32333
 .services ul.itens li a h4 { width: 139px; margin-left: 39px; line-height: 23px; padding-top: 23px;}
 .services ul.itens li a p { padding-top: 9px; margin-left: 39px; margin-bottom: 44px;}
 
+.depoimentos {margin: 0 auto; height: 456px; }
 .depoimentos .title-subtitle-depoimentos { text-align:center; width:417px; margin:0 auto 60px; padding-top: 20px;}
 
-.depoimentos ul .box-comment {display: flex; justify-content: space-around; height: 226px; width: 498px; left: 184px; top: 1652px; text-align: justify;}
+.depoimentos ul {display: flex; }
+.depoimentos ul li { margin: 0 33px; height: 226px; width: 498px; }
+.depoimentos ul li p { text-align: center; width: 498px;}
 
-
-.depoimentos ul li .box-comment p {display: flex;
-
-}
-
+.depoimentos ul li .description {display: flex; width: 254px; height: 79px; margin-top: 22px;}
+.depoimentos ul li .description img.perfil {margin-right: 10px; width: 83px; height: 83px; border-radius: 100%; border: 2px solid #FF6900;}
+.depoimentos ul li .description .name-e-empresa { width: 150px; height: 18px; padding-top: 15px; padding-right: 45px; text-align: left; text-transform: uppercase; font-size: 18px;}
+.depoimentos ul li .description .empresa { width: 160px; text-align: left;}
