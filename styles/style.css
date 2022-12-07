@@ -49,25 +49,10 @@ body { display: flex;justify-content:center;align-items:center;background:#32333
 .main-home .main-call .ultima_linha p { padding: 16px; }
 .main-home .casal { width: 504;height: 480; }
 
-
-
 .services .title-subtitle { text-align:center;width:417px;margin:0 auto 60px; }
 
 .services ul.itens { display: grid;grid-template-columns: repeat(4,1fr);grid-gap: 30px; }
 .services ul.itens li { width: 255px;height: 224px;background: #3E4050;box-shadow: 10px 10px 30px rgba(189, 0, 255, 0.13);border-radius: 10px; }
-
-/* .services li img {
-    
-    margin-left: 39px; margin-top: 45px; margin-bottom: 147px; margin-right: 136px;
-
-    background: #DDFBF8;
-    border-radius: 10px;
-    
-    width: 24px;
-    height: 24px;
-    padding: 8px;
-}
-
-.services li a {
-    top: 959px;
-}  */
+.services ul.itens li a img { margin-top: 45px; margin-left: 39px; }
+.services ul.itens li a h4 { width: 139px; margin-left: 39px; line-height: 23px; padding-top: 23px;}
+.services ul.itens li a p { padding-top: 9px; margin-left: 39px; margin-bottom: 44px;}
