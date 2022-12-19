@@ -68,3 +68,11 @@ body { display: flex;justify-content:center;align-items:center;background:#32333
 .depoimentos ul li .description img.perfil {margin-right: 10px; width: 83px; height: 83px; border-radius: 100%; border: 2px solid #FF6900;}
 .depoimentos ul li .description .name-e-empresa { width: 150px; height: 18px; padding-top: 15px; padding-right: 45px; text-align: left; text-transform: uppercase; font-size: 18px;}
 .depoimentos ul li .description .empresa { width: 160px; text-align: left;}
+
+.depoimentos .servicos-clientes { width: 961px; margin: 0 auto; padding-top: 50px; }
+
+.sobre-blog { width: 826px; margin: 0 auto;}
+.sobre-blog .destaques-blog { display: flex; justify-content: space-between; align-items: center; width: 826px; margin: 150px 0px 30px 0px;}
+
+.sobre-blog .posts_blog { position: 50% 50%; display: flex;  justify-content: space-around; width: 827px;}
+
